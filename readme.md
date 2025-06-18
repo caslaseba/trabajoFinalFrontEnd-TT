@@ -1,17 +1,19 @@
 Descripción:
 
-Esta página que estoy creando en realidad es una prueba piloto.
-La idea final sera otra...
+Pagina dedicada a venta de cartuchos de Family Game.
 
-La página cuenta con etiquetas header, nav, main, section, footer, de parrafo, formularios, img, video, iframe, etc.
+La página cuenta con etiquetas: header, nav, main, section, footer, etiqueta de parrafo, formularios, img, video, iframe...
 
-Agregué a la pagina cosas aleatorias de San Lorenzo.
-
-Agregando imagenes locales (logo principal y otra de ejemplo),
-video online (Youtube), video local, audio local de prueba, una pagina en miniatura para poder navegar desde MI PAGINA,
-un formulario el cual esta vinculado a "formspree.io". Se realizo la prueba de que envie el contenido ingresado
+Imagenes locales
+Videos online (Youtube)
+Videos locales
+Audios locales
+Pagina en miniatura para poder navegar desde MI PAGINA
+Un formulario el cual esta vinculado a "formspree.io". Se realizo la prueba de que envie el contenido ingresado
 con el metodo "POST".
 Coloqué parrafos como para explicar lo que va a continuacion (en algunos casos).
 Inserté la zona de ubicacion, copiando el codigo desde "googlemaps".
+Iconos de redes sociales
+Links a las redes en una pestaña nueva
 
 

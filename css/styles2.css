@@ -1,0 +1,129 @@
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #9A2B32;
+    padding-top: 1rem;
+}
+
+header img {
+    max-width: 100%; /* Ajusta el tamaño de la imagen */
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+nav {
+    width: 100%; /* Asegura que el menú ocupe todo el ancho */
+    background-color: #333; /* Color de fondo del nav */
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centra los elementos del menú */
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Efecto hover */
+}
+
+
+#pInicio {
+    font-size: 2rem;
+}
+
+#inicio {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(114, 91, 86);
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    gap: 2rem;
+}
+#familyGame {
+    width: 30rem;
+    margin-top: 1rem;
+}
+
+#publi {
+    width: 30rem;
+}
+
+
+#nuestrosProductos h2 {
+    text-align: center;
+}
+
+#contenedorProductos {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+#nuestrosProductos {
+    background-color: rgb(138, 82, 82);
+    padding: 3rem;
+    margin: 0 20%;
+    margin-bottom: 2rem;
+}
+#nuestrosProductos img {
+    width: 12rem;
+}
+
+form {
+    margin-bottom: 2rem;
+}
+
+/* Aplicar CSS Grid: En el archivo styles */
+
+@media (max-width: 768px) {
+    .resenias {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 15px; /* Espaciado entre elementos */
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .card {
+        padding: 10px;
+        border: 2px solid #ddd; 
+        /* Borde sutil */
+        border-radius: 10px;
+        /* Esquinas redondeadas */
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); 
+        /* Sombra suave */
+        transition: transform 0.3s ease-in-out; 
+        /* Suaviza la animación */
+    }
+
+    .card:hover {
+        transform: translateY(-5px); /* Eleva la tarjeta al pasar el mouse */
+    }
+
+    .resenias .card img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+}
